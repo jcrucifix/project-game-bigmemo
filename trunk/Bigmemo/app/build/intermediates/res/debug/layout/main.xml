@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frmLytGame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <GridView
+        android:id="@+id/gridViewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:numColumns="3" >
+
+    </GridView>
+
+    <FrameLayout
+        android:id="@+id/frmLytImage"
+        android:layout_width="match_parent"
+        android:layout_height="264dp" >
+    </FrameLayout>
+
+</FrameLayout><!-- From: file:/C:/Documents%20and%20Settings/Jonathan/AndroidstudioProjects/Bigmemo/app/src/main/res/layout/main.xml -->

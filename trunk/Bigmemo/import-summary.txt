@@ -1,0 +1,136 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Documents and Settings\Jonathan\AndroidstudioProjects\Bigmemo
+            -   -                                               
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\.svn\
+* .idea\.svn\all-wcprops
+* .idea\.svn\entries
+* .idea\.svn\text-base\
+* .idea\.svn\text-base\.name.svn-base
+* .idea\.svn\text-base\compiler.xml.svn-base
+* .idea\.svn\text-base\encodings.xml.svn-base
+* .idea\.svn\text-base\misc.xml.svn-base
+* .idea\.svn\text-base\modules.xml.svn-base
+* .idea\.svn\text-base\uiDesigner.xml.svn-base
+* .idea\.svn\text-base\vcs.xml.svn-base
+* .idea\.svn\text-base\workspace.xml.svn-base
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\.svn\
+* .idea\copyright\.svn\all-wcprops
+* .idea\copyright\.svn\entries
+* .idea\copyright\.svn\text-base\
+* .idea\copyright\.svn\text-base\profiles_settings.xml.svn-base
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\.svn\
+* .idea\scopes\.svn\all-wcprops
+* .idea\scopes\.svn\entries
+* .idea\scopes\.svn\text-base\
+* .idea\scopes\.svn\text-base\scope_settings.xml.svn-base
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* .navigation\
+* .navigation\.svn\
+* .navigation\.svn\all-wcprops
+* .navigation\.svn\entries
+* .navigation\Bigmemo\
+* .navigation\Bigmemo\.svn\
+* .navigation\Bigmemo\.svn\all-wcprops
+* .navigation\Bigmemo\.svn\entries
+* .navigation\Bigmemo\raw\
+* .navigation\Bigmemo\raw\.svn\
+* .navigation\Bigmemo\raw\.svn\all-wcprops
+* .navigation\Bigmemo\raw\.svn\entries
+* .navigation\Bigmemo\raw\.svn\text-base\
+* .navigation\Bigmemo\raw\.svn\text-base\main.nvg.xml.svn-base
+* .navigation\Bigmemo\raw\main.nvg.xml
+* Bigmemo.iml
+* UML_Analysis\
+* UML_Analysis\.svn\
+* UML_Analysis\.svn\all-wcprops
+* UML_Analysis\.svn\entries
+* UML_Analysis\.svn\text-base\
+* UML_Analysis\.svn\text-base\BigMemo_SequenceDiagram.uxf.svn-base
+* UML_Analysis\BigMemo_SequenceDiagram.uxf
+* default.properties
+* proguard-project.txt
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* blue_clear.JPG => blue_clear.jpg
+* blue_dark.JPG => blue_dark.jpg
+* brown_clear.JPG => brown_clear.jpg
+* brown_dark.JPG => brown_dark.jpg
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* green_clear.JPG => green_clear.jpg
+* green_dark.JPG => green_dark.jpg
+* grey_clear.JPG => grey_clear.jpg
+* grey_dark.JPG => grey_dark.jpg
+* orange_clear.JPG => orange_clear.jpg
+* orange_dark.JPG => orange_dark.jpg
+* pink_clear.JPG => pink_clear.jpg
+* pink_dark.JPG => pink_dark.jpg
+* red_clear.JPG => red_clear.jpg
+* red_dark.JPG => red_dark.jpg
+* white_clear.JPG => white_clear.jpg
+* white_dark.JPG => white_dark.jpg
+* yellow_clear.JPG => yellow_clear.jpg
+* yellow_dark.JPG => yellow_dark.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
