@@ -1,0 +1,2 @@
+C:\Documents and Settings\Jonathan\AndroidstudioProjects\Bigmemo\app\build\intermediates\classes\debug
+C:\Documents and Settings\Jonathan\AndroidstudioProjects\Bigmemo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-64cc961a01c20b22a9d60d5fb28aa013e7bd7dc9.jar

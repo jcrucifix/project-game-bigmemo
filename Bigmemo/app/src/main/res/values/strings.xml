@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Play!</string>
+    <string name="app_name">BigMemo</string>
+    <string name="menuPlay">Play</string>
+    <string name="menuOptions">Options</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuStats">Stats</string>
+    <string name="menuNew">New</string>
+    <string name="menuLoad">Load</string>
+</resources>

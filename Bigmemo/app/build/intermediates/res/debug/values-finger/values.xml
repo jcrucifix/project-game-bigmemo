@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Documents%20and%20Settings/Jonathan/AndroidstudioProjects/Bigmemo/app/src/main/res/values-finger/strings.xml -->
+    <eat-comment/>
+    <string name="exit">Exit</string>
+    <string name="options">Options</string>
+    <string name="play">Play</string>
+</resources>

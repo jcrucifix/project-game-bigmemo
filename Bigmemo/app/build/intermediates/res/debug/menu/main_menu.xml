@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:visible="true" android:enabled="true" android:title="@string/menuPlay" android:id="@+id/menuPlay">
+		<menu>
+			<item android:id="@+id/menuNew" android:title="@string/menuNew"></item>
+			<item android:id="@+id/menuLoad" android:title="@string/menuLoad"></item>
+		</menu>
+	</item>
+	<item android:visible="true" android:enabled="true" android:id="@+id/menuOptions" android:title="@string/menuOptions"></item>
+	
+	<item android:title="@string/menuStats" android:id="@+id/menuStats"></item><item android:id="@+id/menuExit" android:title="@string/menuExit"></item>
+
+</menu>
+<!-- From: file:/C:/Documents%20and%20Settings/Jonathan/AndroidstudioProjects/Bigmemo/app/src/main/res/menu/main_menu.xml -->

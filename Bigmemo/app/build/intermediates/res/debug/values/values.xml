@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Documents%20and%20Settings/Jonathan/AndroidstudioProjects/Bigmemo/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">BigMemo</string>
+    <string name="hello">Hello World, Play!</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuLoad">Load</string>
+    <string name="menuNew">New</string>
+    <string name="menuOptions">Options</string>
+    <string name="menuPlay">Play</string>
+    <string name="menuStats">Stats</string>
+</resources>
