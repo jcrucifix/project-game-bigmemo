@@ -1,7 +1,6 @@
 package jproject.game.android.bigmemo;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -30,9 +29,8 @@ public class Play extends Activity {
             	
             	imageV.setPressed(true);
             	
-            	/*switch ((int)id){
+            	switch (Integer.parseInt(String.valueOf(id))){
             		case R.drawable.blue_dark: imageV.setImageResource(R.drawable.blue_clear);
-            		imageV.setColorFilter(Color.BLUE, Mode.DARKEN);
             			break;
             		case R.drawable.red_dark: imageV.setImageResource(R.drawable.red_clear);
             			break;
@@ -50,15 +48,12 @@ public class Play extends Activity {
             			break;
             		case R.drawable.orange_dark: imageV.setImageResource(R.drawable.orange_clear);
             			break;
-            	}*/
+            	}
             }
         });
         
-        gridViewGame.setEnabled(false);
-        
-        frmLytImage = (FrameLayout)findViewById(R.id.frmLytImage);
-        
-        
+
+//        frmLytImage = (FrameLayout)findViewById(R.id.frmLytImage);
         
     }
     
@@ -68,13 +63,5 @@ public class Play extends Activity {
 		inflater.inflate(R.menu.main_menu,  menu);
 		return true;
 	}
-	
-    public void onClickHandler(View view){
-    	switch(view.getId()){
-    		case R.id.gridViewGame:    			
-    			findViewById(R.id.gridViewGame).setBackgroundColor(Color.BLUE);
-    		/*case R.id.btnPlay:
-    		 findViewById(R.id.txtViewMessage).setBackgroundColor(Color.BLUE);*/
-    	}
-    }   
+
 }
