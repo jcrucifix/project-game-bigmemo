@@ -1,0 +1,1 @@
+This is my first Android Project. The project consists to create a simple memory game.
